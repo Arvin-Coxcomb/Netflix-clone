@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import styled from "styled-components"
 import {useNavigate} from "react-router-dom"
-import video from "../assets/0482_The_Power_That_Can_Burn_Even.mkv"
+//import video from "../assets/0482_The_Power_That_Can_Burn_Even.mkv"
 import {IoPlayCircleSharp} from "react-icons/io5"
 import {RiThumbUpFill, RiThumbDownFill} from "react-icons/ri"
 import {BsCheck} from "react-icons/bs"
@@ -46,7 +46,7 @@ export default React.memo( function Card({index, movieData, isLiked = false}) {
                 alt = "Movie"
                 onClick = {()=>navigate("./player")}
                 />
-                <video src = {video} 
+                <video src = "https://drive.google.com/file/d/1dXWehWRUC5zRV1RldQMoVHAUEOpsMJo1/view?usp=drive_link" 
                 controls
                 autoPlay
                 loop
