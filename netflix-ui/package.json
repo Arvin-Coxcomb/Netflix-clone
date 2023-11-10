@@ -1,7 +1,7 @@
 {
   "name": "netflix-ui",
   "version": "0.1.0",
-  "homepage": "https://Arvin-Coxcomb.github.io/Netflix-clone",
+  "homepage": "https://Arvin-Coxcomb.github.io/Netflix-clone/netflix-ui",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
